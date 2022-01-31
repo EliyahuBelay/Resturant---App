@@ -1,0 +1,21 @@
+.navbarContainer{
+    background-color: burlywood;
+    grid-area : sideBar;
+  }
+  .navbar{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .navbar li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
